@@ -125,6 +125,10 @@
             background-size: cover;
         }
         
+        #stretch-image {
+            margin: 20px auto 10px auto;
+        }
+
         .product-images p {
             background-color: #2B2F26;
             font-size: 1.2em;
@@ -133,15 +137,16 @@
             color: #F2F1E8;
         }
 
-        .product-images .row {
+        .row { 
             display: flex;
             justify-content: space-between;
             margin-bottom: 5px;
+            flex-direction:row;
         }
 
         .product-images {
             padding: 10px;
-            width: 100%;
+             width: 100%; 
             box-sizing: border-box;
             margin: 0 auto;
         }
@@ -149,7 +154,7 @@
         .box1 {
             display: flex;
             flex: 1;
-            margin: 4px;
+            margin: 5px;
             height: 55vh;
         }
         
@@ -161,7 +166,7 @@
             display: flex;
             flex: 1;
             height: 35vh;
-            margin: 4px;
+            margin: 5px;
         }
         
         .box2:nth-child(3) {
@@ -182,7 +187,7 @@
             margin: 10px 30px 20px 0;
         }
         
-        .sec1 a:hover {
+        .section1 a:hover {
             transition: color .5s ease;
             color: #967343;
         }
@@ -259,7 +264,7 @@
             width: 65%;
             margin: 0 auto;
         }
-        
+
         .section3 aside p {
             font-size: 12px;
             align-self: center;
@@ -359,6 +364,7 @@
             font-size: 18px;
             margin: 10px 0 0 0;
         }
+
         input#signupButton {
             background-color: #968772;
             padding: 15px;
@@ -388,3 +394,6 @@
             color: #F2F1E8;
         }
 
+
+
+        /Users/erinwoody/week-one-project/index.html
