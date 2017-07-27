@@ -1,4 +1,3 @@
-<<<<<<< HEAD
         body {
             background-color: #F2F1E8;
             color: #131511;
@@ -8,22 +7,19 @@
             font-family: 'Roboto', sans-serif;
             font-family: 'Merriweather', serif;
         }
-        
+
+        header {
+            width: 100%;
+            display: flex;
+            margin: 0;
+        }
+
         .container {
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
         }
         
-        header {
-            width: 100%;
-            display: flex;
-            margin: 0;
-        }
-        
-        nav {
-            box-shadow: 0px 3px 3px #E5E4DF;
-        }
 
         .nav-logo img {
             align-self: center;
@@ -35,62 +31,25 @@
         .nav-bar {
             display: flex;
             justify-content: space-between;
+            position: fixed;
             top: 0;
             flex: 1;
             font-family: 'Roboto', sans-serif;
             height: 60px;
-            position: fixed;
-            background-color: #FFFFFF;
-=======
-body {
-            background-color: #F2F1E8;
-            color: #131511;
-            margin: 60px auto 0 auto;
-            font-family: 'Roboto', sans-serif;
-            font-family: 'Merriweather', serif;
-            height: 100%;
-            font-size: 18px;
-        }
-        
-        .container {
-            /* flexbox goes here */
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-        }
-        /* HEADER AND NAV BAR STYLES HERE */
-        
-        header {
-            display: flex;
-            margin: 0;
             width: 100%;
+            background-color: #FFFFFF;
         }
         
         nav {
-            /* offset-x | offset-y | blur-radius | color */
             box-shadow: 0px 3px 3px #E5E4DF;
-        }
-        
-        .nav-bar {
-            background-color: #FFFFFF;
-            display: flex;
-            justify-content: space-between;
-            height: 60px;
-            flex: 1;
-            font-family: 'Roboto', sans-serif;
-            position: fixed;
-            top: 0;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-            width: 100%;
-        }
-        
+        }  
+
         .nav-bar a {
             color: #2B2F26;
             padding: 20px 25px;
             text-transform: uppercase;
         }
         
-<<<<<<< HEAD
         .nav-links {
             display: flex;
             flex: 1;
@@ -100,144 +59,72 @@ body {
         .nav-bar a:hover {
             color: #CD5D67;
             transition: color 1s ease;
-=======
-        .nav-logo img {
-            align-self: center;
-            width: 40px;
-            height: 40px;
-            margin: .5rem;
-        }
-        
-        .nav-bar a:hover {
-            transition: color 1s ease;
-            color: #CD5D67;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
         
         a, a.selected, a:active {
             color: #968772;
         }
         
-<<<<<<< HEAD
-=======
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            flex: 1;
-        }
-        /* HOME PAGE STYLING */
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-        
         .main-content h1, h2 {
-            width: 100%;
             display: flex;
             justify-content: center;
+            width: 100%;
         }
         
         h1 {
-<<<<<<< HEAD
             font-weight: 400;
             margin: 0 auto;
             font-size: 4rem;
-            text-align: center;
-=======
-            font-size: 4rem;
-            text-align: center;
-            font-weight: 400;
-            margin: 0 auto;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-            padding-top: 30px;
             padding-bottom: 10px;
+            text-align: center;
+            padding-top: 30px;
         }
         
         h2 {
-<<<<<<< HEAD
             font-weight: 200;
             font-size: 2rem;
             text-align: center;
-=======
-            font-size: 2rem;
-            text-align: center;
-            font-weight: 200;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-            margin: 0 auto;
             padding-bottom: 30px;
+            margin: 0 auto;
         }
         
-<<<<<<< HEAD
             /* Images  */
         
         #image1 {
-=======
-        .product-images p {
-            background-color: #2B2F26;
-            color: #F2F1E8;
-            padding: 10px;
-            align-self: flex-end;
-            font-size: 1.2em;
-        }
-        
-        #product-1 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-1.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image2 {
-=======
-        #product-2 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-2.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image3 {
-=======
-        #product-3 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-3.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image4 {
-=======
-        #product-4 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-4.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image5 {
-=======
-        #product-5 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-5.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image6 {
-=======
-        #product-6 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-6.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         #image7 {
-=======
-        #product-7 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             background-image: url(images/product-7.jpg);
             background-size: cover;
         }
         
-<<<<<<< HEAD
         .product-images p {
             background-color: #2B2F26;
             font-size: 1.2em;
@@ -246,21 +133,11 @@ body {
             color: #F2F1E8;
         }
 
-=======
-        .product-images {
-            box-sizing: border-box;
-            width: 100%;
-            margin: 0 auto;
-            padding: 10px;
-        }
-        
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         .product-images .row {
             display: flex;
             justify-content: space-between;
             margin-bottom: 5px;
         }
-<<<<<<< HEAD
 
         .product-images {
             padding: 10px;
@@ -272,8 +149,8 @@ body {
         .box1 {
             display: flex;
             flex: 1;
-            height: 55vh;
             margin: 4px;
+            height: 55vh;
         }
         
         .box1:first-child {
@@ -297,70 +174,24 @@ body {
             font-size: 18px;
             line-height: 2.5rem;
             margin: 0 auto;
-=======
-        
-        .box {
-            display: flex;
-            flex: 1;
-            height: 55vh;
-            margin: 5px;
         }
         
-        .box:first-child {
-            flex: 3;
-        }
-        
-        .sm-box {
-            display: flex;
-            flex: 1;
-            height: 35vh;
-            margin: 5px;
-        }
-        
-        .sm-box:nth-child(3) {
-            flex: 2;
-        }
-        /* ABOUT STYLES */
-        
-        .about-container h3 {
-            font-weight: lighter;
-            font-size: 30px;
-            margin: 40px 0 10px 0;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-        }
-        
-        .about-container:first-child h1 {
-            margin: 40px 0 60px 0;
-        }
-        
-<<<<<<< HEAD
-        .about-container h3 {
-            margin: 40px 0 10px 0;
-            font-weight: lighter;
-            font-size: 30px;
-        }
-        
-=======
-        .sec1, .sec2, .sec3, .sec4 {
-            width: 65%;
-            margin: 0 auto;
-            line-height: 2.5rem;
-            font-size: 18.6px;
-        }
         
         .birdhouse img {
             float: left;
             margin: 10px 30px 20px 0;
         }
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         
         .sec1 a:hover {
             transition: color .5s ease;
             color: #967343;
         }
         
+        .about-container:first-child h1 {
+            margin: 40px 0 60px 0;
+        }
+
         blockquote {
-<<<<<<< HEAD
             font-size: 18px;
             display: inline-block;
             text-align: left;
@@ -369,90 +200,42 @@ body {
             margin: 0 auto;
             border-left: 2px solid #968772;
             font-style: italic;
-=======
-            display: inline-block;
-            text-align: left;
-            width: 88%;
-            margin: 0 auto;
-            font-style: italic;
-            border-left: 2px solid #968772;
-            padding-left: 25px;
-            font-size: 18px;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-        }
-        
-        section h1 {
-            background-image: url(images/background-3.jpg);
-            color: white;
-<<<<<<< HEAD
-            height: 40vh;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            display: flex;
-            background-position-y: -115px;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .birdhouse img {
-            margin: 10px 30px 20px 0;
-            float: left;
         }
 
         #img {
             margin: 20px auto 10px auto;
         }
         
+        section h1 {
+            background-image: url(images/background-3.jpg);
+            color: white;
+            height: 40vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: flex;
+            background-position-y: -115px;
+            justify-content: center;
+            align-items: center;
+        }
+
         .section2 {
             padding: 10px;
         }
         
         .section2 p, .section3 h1 {
-=======
-            background-size: cover;
-            height: 40vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-position-y: -115px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-        #stretch-image {
-            margin: 20px auto 10px auto;
-        }
-        
-        .sec2 {
-            padding: 10px;
-        }
-        
-        .sec2 p, .sec3 h1 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             margin: 0 auto;
         }
         
-        .facilities {
-            margin: 0 auto;
-            width: 65%;
-        }
         
-<<<<<<< HEAD
         .section3 {
-=======
-        .sec3 {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             display: flex;
             flex-flow: row wrap;
             height: 40vh;
         }
         
-<<<<<<< HEAD
         .section3 p:first-child {
             flex: 4;
             text-align: left;
@@ -462,25 +245,18 @@ body {
         }
         
         .section3 aside {
-=======
-        .sec3 p:first-child {
-            flex: 4;
-            height: 100%;
-            margin: 0 auto;
-            padding: 0 10px 0 0;
-            text-align: left;
-        }
-        
-        .sec3 aside {
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
             flex: 1;
-<<<<<<< HEAD
             width: 65%;
             height: 90%;
             align-self: center;
+            margin: 0 auto;
+        }
+        
+        .facilities {
+            width: 65%;
             margin: 0 auto;
         }
         
@@ -509,66 +285,24 @@ body {
             border: 1px solid black;
             padding: 10px;
         }
-=======
-            align-self: center;
-            margin: 0 auto;
-            height: 90%;
-            width: 65%;
-        }
-        
-        .sec3 aside p {
-            font-size: 12px;
-            margin: 5px 5px;
-            line-height: 1.4rem;
-            width: 160px;
-            align-self: center;
-        }
-        
-        .sec3 aside img {
-            margin: 0 auto;
-            padding: 10px;
-        }
-        
-        .sec4 {
-            margin: 0 auto 50px auto;
-        }
-        
-        .sec4 h3 {
-            margin-top: 10px;
-        }
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         
         table {
             border-collapse: collapse;
         }
         
-<<<<<<< HEAD
         table tr:nth-child(even) {
             background-color: #E8E0D0;
-=======
-        table, th, td {
-            border: 1px solid black;
-            padding: 10px;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
         
         table tr:first-child {
             text-align: center;
         }
         
-<<<<<<< HEAD
-=======
-        table tr:nth-child(even) {
-            background-color: #E8E0D0;
-        }
-        /* NEWSLETTER STYLES */
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
-        
+
         @viewport {
             min-height: 60vh;
         }
         
-<<<<<<< HEAD
         .news-container {
             flex: 1;
         }
@@ -589,34 +323,11 @@ body {
             background-size: cover;
             background-repeat: no-repeat;
             display: flex;
-=======
-        #news-body {
-            background-image: url("images/background-2.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            height: 91.5vh;
-            flex-direction: column;
-        }
-        
-        .news {
-            height: 65vh;
-            width: 80%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-        }
-        
-        .news-container {
-            flex: 1;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
         
         .form {
             background-color: white;
             display: flex;
-<<<<<<< HEAD
             height: 50vh;
             width: 60%;
             padding: 15px 15px 0 15px;
@@ -636,34 +347,12 @@ body {
             padding-top: 10px;
             font-size: 30px;
             font-weight: lighter;
-=======
-            flex-direction: column;
-            justify-content: center;
-            align-self: center;
-            width: 60%;
-            text-align: center;
-            margin: 0 auto;
-            padding: 15px 15px 0 15px;
-            height: 50vh;
-        }
-        
-        .form h1 {
-            font-weight: lighter;
-            font-size: 30px;
-            padding-top: 10px;
-        }
-        
-        .form p {
-            font-size: 20px;
-            margin: 10px auto;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
         
         input {
             border: none;
             border-bottom: 2px solid #968772;
             padding: 20px 0 0 0;
-<<<<<<< HEAD
             align-self: center;
             outline: none;
             width: 90%;
@@ -676,35 +365,12 @@ body {
             width: 130px;
             margin: 30px auto 0 auto;
             color: #F2F1E8;
-=======
-            outline: none;
-            margin: 10px 0 0 0;
-            font-size: 18px;
-            width: 93%;
-            align-self: center;
-        }
-        
-        input:focus {
-            border: none;
-            border-bottom: 2px solid #967343;
-            outline: none;
-            transition: color 1s ease;
-        }
-        
-        input#signupButton {
-            background-color: #968772;
-            color: #F2F1E8;
-            width: 130px;
-            padding: 15px;
-            margin: 30px auto 0 auto;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
         
         input#signupButton:hover {
             background-color: #967343;
             color: #FFFFFF;
         }
-<<<<<<< HEAD
         
         input:focus {
             border: none;
@@ -720,14 +386,5 @@ body {
             padding-left: 30px;
             padding: 20px;
             color: #F2F1E8;
-=======
-        /* footer styles */
-        
-        footer {
-            background-color: #2B2F26;
-            color: #F2F1E8;
-            padding: 20px;
-            padding-left: 30px;
->>>>>>> 230ba1b6886e6533cea05ed0780024f80e751e0a
         }
 
